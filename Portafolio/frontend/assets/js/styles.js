@@ -7,20 +7,78 @@ document.addEventListener("DOMContentLoaded", function () {
             background-color: #000;
             color: #0f0;
         }
+        .boxShadow {
+            box-shadow: 0 1px 2px #00ffcc;
+            margin: 1rem;   
+            padding: 1rem;
+            border-radius: 4px; 
+        
+            
+        }
+            
+
+        main {
+            margin-top: 12rem;
+        }
+
+        img {
+            max-width: 2rem;
+        }
+
+        h2 {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
 
         header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
             background-color: #000;
-            padding: 2rem;
             display: flex;
-            aling-items: center;
+            align-items: center;
             justify-content: space-between;
             flex-wrap: wrap;
             gap: 1rem; 
+            
+            z-index: 1000;
         }
+
+        #sobreMi {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        #Foto {
+            max-width: 5rem;
+            border-radius: 100%;
+            margin-right: 15rem;
+            margin-bottom:1rem;
+        }
+
+        #sobreMi h2 {
+            margin-bottom: 0.5rem;
+        }
+
+        #sobreMi p {
+            max-width: 60rem;
+            margin: 0 auto;
+            font-size: 1.2rem;
+        }
+
+
 
         header h1 {
             color: #0f0;
             margin-bottom: 1.5rem;
+        }
+
+        header h2 {
+            display: flex;
+            align-items: center;
+
         }
 
         nav {
@@ -30,7 +88,9 @@ document.addEventListener("DOMContentLoaded", function () {
             flex-wrap: wrap;
         }
 
-        nav a {
+        nav a, h1, .skill{
+                display: inline-block;
+                vertical-align: top;
                 position: relative;
                 color: #0ff;
                 text-decoration: none;
@@ -63,7 +123,24 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
 
-       
+
+        .Habilidades-contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items:center;
+            padding: 1rem;
+        }
+
+        .habilidad, Habilidades-contenedor > div{
+            display: flex;
+            flex-direction; column;
+            align-items: center;
+            width: 8rem;
+            text-align: center;
+        }
+
 
     
         `;
