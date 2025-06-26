@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         body {
             margin: 0;
             background-color: #000;
-            color: #0f0;
+            color:  #fff;
         }
         .boxShadow {
             box-shadow: 0 1px 2px #00ffcc;
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         header h1 {
-            color: #0f0;
+            color: #fff;
             margin-bottom: 1.5rem;
         }
 
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 display: inline-block;
                 vertical-align: top;
                 position: relative;
-                color: #0ff;
+                color:  #fff;
                 text-decoration: none;
                 font-weight: bold;
                 padding: 0.5rem 0.5rem;
