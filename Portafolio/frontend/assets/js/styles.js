@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         #Foto {
             max-width: 5rem;
             border-radius: 100%;
-            margin-right: 15rem;
+            margin-right: center;
             margin-bottom:1rem;
         }
 
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
             flex-wrap: wrap;
         }
 
-        nav a, h1, .skill{
+        nav a, h1, .skill, .proyecto {
                 display: inline-block;
                 vertical-align: top;
                 position: relative;
@@ -124,7 +124,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
 
-        .Habilidades-contenedor {
+
+
+        .Habilidades-contenedor, .proyectos-contenedor {
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
@@ -133,9 +135,9 @@ document.addEventListener("DOMContentLoaded", function () {
             padding: 1rem;
         }
 
-        .habilidad, Habilidades-contenedor > div{
+        .habilidad, Habilidades-contenedor > div, .proyecto, proyectos-contenedor > div {
             display: flex;
-            flex-direction; column;
+            flex-direction: column;
             align-items: center;
             width: 8rem;
             text-align: center;
