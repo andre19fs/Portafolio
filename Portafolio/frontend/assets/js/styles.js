@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     style.textContent = `
         body {
             margin: 0;
-            background-color: #000;
+            background-color: #0a120d;
             color:  #fff;
         }
         .boxShadow {
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             top: 0;
             left: 0;
             width: 100%;
-            background-color: #000;
+            background-color: #0a120d;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -49,6 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
         #sobreMi {
             text-align: center;
             padding: 2rem;
+            background-color: #0e1912;
+            
         }
 
         #Foto {
@@ -68,8 +70,6 @@ document.addEventListener("DOMContentLoaded", function () {
             font-size: 1.2rem;
         }
 
-
-
         header h1 {
             color: #fff;
             margin-bottom: 1.5rem;
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
             flex-wrap: wrap;
         }
 
-        nav a, h1, .skill, .proyecto {
+        nav a, h1, .skill, .proyecto, #contacto {
                 display: inline-block;
                 vertical-align: top;
                 position: relative;
@@ -123,8 +123,10 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
 
-
-
+        #proyectos {
+            background-color: #0e1912;
+            padding: 2rem;
+        }
 
         .Habilidades-contenedor, .proyectos-contenedor {
             display: flex;
@@ -132,7 +134,8 @@ document.addEventListener("DOMContentLoaded", function () {
             gap: 2rem;
             justify-content: center;
             align-items:center;
-            padding: 1rem;
+            padding: 2rem;
+            
         }
 
         .habilidad, Habilidades-contenedor > div, .proyecto, proyectos-contenedor > div {
@@ -143,6 +146,52 @@ document.addEventListener("DOMContentLoaded", function () {
             text-align: center;
         }
 
+        #contacto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        #formulario {
+            background-color: 1e1e1e;
+            border-radius: 1.2rem;
+            padding: 2rem 2.5rem;
+            max-width: 50rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+
+        #contacto h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #FFFFFF;
+            padding: 2rem 0 0 0;
+        }
+
+        #formulario label {
+            font-weight: bold;
+            color: #FFFFFF;
+            
+        }
+
+        #formulario button {
+            background-color: #32cd32;
+            color: #000;
+            border: none;
+            padding: 0.9rem 1.4rem;
+            border-radius: 0.4rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #formulario button:hover {
+            background-color: #228b22;
+        }
 
     
         `;

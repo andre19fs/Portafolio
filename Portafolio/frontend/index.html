@@ -19,7 +19,7 @@
     </header>
 
     <main>
-        <section id="sobreMi" class="boxShadow">
+        <section id="sobreMi">
             <img id="Foto" src="/Portafolio/frontend/assets/img/Foto.jpg" alt="Mi foto">
             <h2>Sobre mi</h2>
             <p>Hola, soy Andrés Pasten, estudiante de Informática con interés en el desarrollo de software,<br>
@@ -29,7 +29,7 @@
             </p>
         </section>
 
-        <section id="habilidades" class="boxShadow">
+        <section id="habilidades">
             <h2>Mis habilidades</h2>
             <div class="Habilidades-contenedor">
                 <div class="habilidad">
@@ -67,7 +67,7 @@
             </div>
         </section>
 
-        <section id="proyectos" class="boxShadow">
+        <section id="proyectos">
             <h2>Mis proyectos</h2>
             <div class="proyectos-contenedor">
                 <div class="proyecto">
@@ -94,15 +94,15 @@
 
         <section  id="contacto">
             <h2>Contactame</h2>
-            <form >
+            <form id="formulario">
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required>
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" autocomplete="email" required>
 
                 <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <textarea id="mensaje" name="mensaje" autocomplete="off" required></textarea>
 
                 <button type="submit">Enviar</button>
             </form>
@@ -110,6 +110,8 @@
 
     </main>
     <script src="/Portafolio/frontend/assets/js/styles.js"></script>
+    <script src="/Portafolio/frontend/assets/js/bot.js"></script>
+    <script src="/Portafolio/frontend/assets/js/eventoContacto.js"></script>
 </body>
 
 </html>
