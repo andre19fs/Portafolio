@@ -89,6 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
             flex-wrap: wrap;
         }
 
+        /*marco con animacion*/
         nav a, h1, .skill, .proyecto, #contacto {
                 display: inline-block;
                 vertical-align: top;
@@ -117,6 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ox-shadow: 0 0 15px #00ffcc, 0 0 25px #00ffcc;
         }
 
+        /*animacio*/
         @keyframes neonBorde {
             0% {
                 background-position: 0% 50%;
@@ -185,6 +187,31 @@ document.addEventListener("DOMContentLoaded", function () {
             width: 25rem;
         }
 
+        /*Poner gif del proyecto en la imagen del pc*/
+
+        .contenedor-gif {
+            position: relative;
+            width: 25rem;
+            height: 15rem;
+            margin-bottom: 5rem;
+        }
+
+        .fondo, .gif {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        .fondo {
+            z-index: 1;
+        }
+
+        .gif {
+            z-index: 2;
+            
+        }
 
 
         /*seccion contacto*/
