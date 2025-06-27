@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     style.textContent = `
         body {
             margin: 0;
+            font-family: "Calibri";
             background-color: #0a120d;
             color:  #fff;
         }
@@ -21,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
             margin-top: 12rem;
         }
 
-        img {
+        #habilidades img {
             max-width: 2rem;
         }
 
@@ -98,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 padding: 0.5rem 0.5rem;
                 border: 2px solid transparent;
                 border-radius: 8px;
-                background: linear-gradient(#000, #000) padding-box,
+                background: linear-gradient(#0a120d, #0a120d) padding-box,
                             linear-gradient(270deg, #00ffff, #00ff00, #00ffff) border-box;
                 background-size: 400% 400%;
                 background-clip: padding-box, border-box;
@@ -107,6 +108,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 box-shadow: 0 0 5px #00ffcc;
             
         }
+
+
         
         nav a:hover {
             color: #000;
@@ -123,12 +126,9 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
 
-        #proyectos {
-            background-color: #0e1912;
-            padding: 2rem;
-        }
 
-        .Habilidades-contenedor, .proyectos-contenedor {
+        /* Seccion habilidades*/
+        .Habilidades-contenedor {
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
             
         }
 
-        .habilidad, Habilidades-contenedor > div, .proyecto, proyectos-contenedor > div {
+        .habilidad, .Habilidades-contenedor > div {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -146,6 +146,48 @@ document.addEventListener("DOMContentLoaded", function () {
             text-align: center;
         }
 
+
+
+        /*seccion proyectos*/
+
+        #proyectos {
+            background-color: #0e1912;
+            padding: 2rem;
+        }
+        
+        .proyectos-contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items:center;
+            padding: 2rem;
+            
+        }
+
+        .proyectos-contenedor > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .proyecto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50rem;
+            height: 30rem;
+            text-align: center;
+        }
+
+        .proyecto img {
+            width: 25rem;
+        }
+
+
+
+        /*seccion contacto*/
         #contacto {
             display: flex;
             flex-direction: column;
