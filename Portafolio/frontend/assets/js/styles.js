@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         /*marco con animacion*/
-        nav a, h1, .skill, .proyecto, #contacto, .repo {
+        nav a, h1, .skill, .proyecto, #contacto, .repo, #verdevital {
                 display: inline-block;
                 vertical-align: top;
                 position: relative;
@@ -156,6 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
             background-color: #0e1912;
             padding: 2rem;
         }
+
         
         .proyectos-contenedor {
             display: flex;
@@ -166,6 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
             padding: 2rem;
             
         }
+
 
         .proyectos-contenedor > div {
             display: flex;
@@ -179,8 +181,12 @@ document.addEventListener("DOMContentLoaded", function () {
             flex-direction: column;
             align-items: center;
             width: 50rem;
-            height: 32rem;
+            height: 35rem;
             text-align: center;
+        }
+
+        .proyecto:hover {
+            padding: 2rem;
         }
 
         .proyecto img {
@@ -259,6 +265,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
         #formulario button:hover {
             background-color: #228b22;
+        }
+
+        /*proyecto concreto*/
+
+        #verdevital {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-contentn: center;
+            text-align: center;
+            padding:2rem;
+            
         }
 
     

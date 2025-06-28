@@ -9,6 +9,22 @@ document.addEventListener("DOMContentLoaded", () => {
         const correo = document.getElementById("email").value;
         const mensajeContacto = document.getElementById("mensaje").value;
 
+        if (nombre === ""){
+            alert("Porfavor ingresa tu nombre ^_^")
+            return;
+        }
+
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if(!emailRegex.test(correo)){
+            alert("Asegurate de escribir correctamente tu correo ^_^")
+            return;
+        }
+
+        if (mensajeContacto === ""){
+            alert("Porfavor escribe un mensaje ^_^")
+            return;
+        }
+
         MensajeContacto(nombre, correo, mensajeContacto)
             .then(() => {
                 formulario.reset();
