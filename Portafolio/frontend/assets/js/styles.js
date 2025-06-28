@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         /*marco con animacion*/
-        nav a, h1, .skill, .proyecto, #contacto {
+        nav a, h1, .skill, .proyecto, #contacto, .repo {
                 display: inline-block;
                 vertical-align: top;
                 position: relative;
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         
-        nav a:hover {
+        nav a:hover, .repo:hover {
             color: #000;
             background: linear-gradient(#00ffcc, #00ffcc) padding-box, linear-gradient(270deg, #00ffff, #00ff00, #00ffff) border-box;
             ox-shadow: 0 0 15px #00ffcc, 0 0 25px #00ffcc;
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
             flex-direction: column;
             align-items: center;
             width: 50rem;
-            height: 30rem;
+            height: 32rem;
             text-align: center;
         }
 
@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", function () {
             position: relative;
             width: 25rem;
             height: 15rem;
-            margin-bottom: 5rem;
+            margin-bottom: 10rem;
         }
 
         .fondo, .gif {
@@ -210,7 +210,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         .gif {
             z-index: 2;
-            
         }
 
 
