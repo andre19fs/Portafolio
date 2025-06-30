@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+
     const style = document.createElement("style");
 
     style.textContent = `
@@ -7,16 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             font-family: "Calibri";
             background-color: #0a120d;
             color:  #fff;
-        }
-        .boxShadow {
-            box-shadow: 0 1px 2px #00ffcc;
-            margin: 1rem;   
-            padding: 1rem;
-            border-radius: 4px; 
-        
-            
-        }
-            
+        }   
 
         main {
             margin-top: 12rem;
@@ -285,4 +276,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-});
