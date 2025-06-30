@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andres Pasten</title>
+</head>
+
+<body>
+    <header>
+        <h1>Andres Pasten</h1>
+        <nav>
+            <a href="#sobreMi">Sobre mi</a>
+            <a href="#habilidades">Mis habilidades</a>
+            <a href="#misProyectos">Mis proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobreMi">
+            <img id="Foto" src="/Portafolio/frontend/assets/img/perfil.jpg" alt="Mi foto">
+            <h2>Sobre mi</h2>
+            <p>Hola, soy <span style="font-size: 3rem;">Andrés Pasten</span>, estudiante de Informática con interés en
+                el desarrollo de software,<br>
+                la resolución de problemas y la tecnología aplicada a la vida real. Me gusta aprender haciendo, <br>
+                por eso suelo complementar mis estudios con proyectos personales y colaborativos. <br>
+                Busco crecer como desarrollador, entendiendo no solo el código, sino también a las personas que lo usan.
+            </p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Mis habilidades</h2>
+            <div class="Habilidades-contenedor">
+                <div class="habilidad">
+                    <h3>HTML</h3>
+                    <img class="skill" src="/Portafolio/frontend/assets/img/html-5.png" alt="html">
+                </div>
+                <div class="habilidad">
+                    <h3>CSS</h3>
+                    <img class="skill" src="/Portafolio/frontend/assets/img/css3.png" alt="css">
+                </div>
+                <div class="habilidad">
+                    <h3>JavaScript</h3>
+                    <img class="skill" src="/Portafolio/frontend/assets/img/js.png" alt="javascript">
+                </div>
+                <div class="habilidad">
+                    <h3>Nodejs</h3>
+                    <img class="skill" src="/Portafolio/frontend/assets/img/nodejs.png" alt="node">
+                </div>
+                <div class="habilidad">
+                    <h2>Express</h2>
+                    <img class="skill" src="/Portafolio/frontend/assets/img/icons8-express-js-512.png" alt="express">
+                </div>
+                <div class="habilidad">
+                    <h2>MySql</h2>
+                    <img class="skill" src="/Portafolio/frontend/assets/img/mysql.png" alt="mysql">
+                </div>
+                <div class="habilidad">
+                    <h2>Sqlite</h2>
+                    <img class="skill" src="/Portafolio/frontend/assets/img/icons8-sqlite-500.png" alt="sqlite">
+                </div>
+                <div class="habilidad">
+                    <h2>Java</h2>
+                    <img class="skill" src="/Portafolio/frontend/assets/img/java.png" alt="java">
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis proyectos</h2>
+            <div class="proyectos-contenedor">
+                <div class="proyecto">
+                    <div class="contenedor-gif">
+                        <img class="fondo" src="/Portafolio/frontend/assets/img/pc.png" alt="">
+                        <img class="gif" src="/Portafolio/frontend/assets/img/gifVerdeVital.gif" alt="gifVerdeVital">
+                    </div>
+                    <h3>VerdeVital</h3>
+                    <p>Verdevital es una aplicacion web que permite realizar compras <br>
+                       manejo de ventas y productos vegetarianos en linea en linea<br>
+                       <br>
+                       html - css - javascript - nodeJs - expressJs - Sqlite
+                    </p>
+                    <a class="repo" style="margin: 0.5rem;" href="verdevital.html">mas Informácion</a>
+                    <a target="_blank" class="repo" href="https://github.com/andre19fs/VerdeVital"><img style="width: 2rem; " src="/Portafolio/frontend/assets/img/icons8-github-500 (1).png">Repositorio</a>
+                </div>
+
+        </section>
+
+        <section id="contacto">
+            <h2>Contactame</h2>
+            <p>Este formulario esta conectado a mi bot de telegram, por lo que podre recibir tu mensaje de inmediato. ^_^</p>
+            <form id="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="email" >
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" autocomplete="off" ></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer>
+            <h3>Andres Pasten</h3>
+            <p>Copyright Andres Pasten 2025</p>
+
+            <a target="_blank" href="https://github.com/andre19fs"><img style="width: 2rem;" src="/Portafolio/frontend/assets/img/icons8-github-500 (1).png" alt=""></a>
+            <a target="_blank" href="https://www.linkedin.com/in/andr%C3%A9s-past%C3%A9n-rodr%C3%ADguez-40b502343/"><img style="width: 2rem;" src="/Portafolio/frontend/assets/img/icons8-linkedin-480.png"></a></a>
+        </footer>
+
+    </main>
+
+    <script src="/Portafolio/frontend/assets/js/styles.js"></script>
+    <script src="/Portafolio/frontend/assets/js/bot.js"></script>
+    <script src="/Portafolio/frontend/assets/js/eventoContacto.js"></script>
+</body>
+
+</html>
