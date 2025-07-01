@@ -1,4 +1,3 @@
-
     const style = document.createElement("style");
 
     style.textContent = `
@@ -67,12 +66,6 @@
             margin-bottom: 1.5rem;
         }
 
-        header h2 {
-            display: flex;
-            align-items: center;
-
-        }
-
         nav {
             display: flex;
             justify-content: center;
@@ -100,8 +93,6 @@
                 box-shadow: 0 0 5px #00ffcc;
             
         }
-
-
         
         nav a:hover, .repo:hover {
             color: #000;
